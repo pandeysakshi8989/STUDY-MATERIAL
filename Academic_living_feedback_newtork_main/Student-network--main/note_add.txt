@@ -1,0 +1,96 @@
+=> for home 
+
+=>  for about
+
+=>  for academic help 
+
+books  list in a table with title, author, addition, publication, download feature , read only feature 
+
+links list with website name , subject, link 
+
+libraries  with name, place, offline/online, more
+
+previous year papers with subject, course, year
+
+specific exams resource materials with exam name, year, links, suggetsions
+
+=>  for food help
+
+tiffin centrs list with name, place, owner, registered , food quality prcing plan, more .. menu list, today food available or not,open/close
+
+restuarants
+
+small shops
+
+=>  for living help
+
+room rents with owner, place, price, faciliies, room size, photos, avialble or not
+
+hostels 
+
+=>  for counselling help
+
+counsellor details with name , photo, specialization, description,  students attendentant till now, day available, time available
+
+students name, contact, counsellling date, successful or not, subject of matter
+
+=>  for network help
+
+alumni student with name, contact , course, cv,place of work, linked in link
+
+senior student 
+
+group name, link of connection, subject 
+
+=>  for pricing plan
+
+free ,subscription for 3 months, 6 months, 1 year with price , services and benefits available or not, with attractive design and photos 
+
+=>  for team
+
+admin, devloper team , service provider wih name, contact, work,photo
+
+=>  for testimonials
+
+student name, photo, description of help in a sliding banner
+
+add a FAQ questions 
+
+=>  for offers
+
+discount offers on some festivals, specific service providers, using of specific bank credit cards 
+
+=>  for connect
+
+name, contact, location of office online with help
+
+name, contact, location of services providers 
+
+customer suport contact
+
+
+=> user dashboard 
+
+user gets its name and email at top 
+
+its activity, transactions 
+
+can get services details and get the same after payement 
+
+suggestions and review  add through help.. can upload photos and pdf faciliies
+
+=> admin dashboard 
+
+name, photo, contact of admin on top
+
+can see details of all devlopers, service providers, get information about any report of misuse , able or add or delete any team member or service provider
+
+=>developer dahboard
+
+can see suggestions of user, add ,update any webpage accordingly after admin permission
+
+=> sevice provider dashboard
+
+can see user suggestions and request developer to add or upadate any feature
+
+can upload any photo, files, text related to services after developer permision

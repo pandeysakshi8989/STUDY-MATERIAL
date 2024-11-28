@@ -1,0 +1,103 @@
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+const port = 3000;
+
+app.use(bodyParser.json());
+app.use(express.static('public')); // Serve static files from the 'public' directory
+
+let suggestions = [
+    { id: 1, suggestion: "Add a dark mode option.", status: "Pending" },
+    { id: 2, suggestion: "Improve loading speed.", status: "Pending" }
+];
+
+// Endpoint to get suggestions
+app.get('/suggestions', (req, res) => {
+    res.json(suggestions);
+});
+
+// Endpoint to approve suggestions
+app.post('/approve-suggestion', (req, res) => {
+    const { id } = req.body;
+    const suggestion = suggestions.find(s => s.id === id);
+    if (suggestion) {
+        suggestion.status = "Approved";
+        res.json({ message: "Suggestion approved" });
+    } else {
+        res.status(404).json({ message: "Suggestion not found" });
+    }
+});
+
+// Endpoint to update webpage content
+app.post('/update-content', (req, res) => {
+    const { content } = req.body;
+    // Here you would implement the logic to update the actual webpage content
+    res.json({ message: "Webpage content updated" });
+});
+
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
+
+
+
+
+
+
+
+
+
+
+const express = require('express');
+const bodyParser = require('body-parser');
+const multer = require('multer');
+const app = express();
+const port = 3000;
+
+app.use(bodyParser.json());
+app.use(express.static('public')); // Serve static files from the 'public' directory
+
+const upload = multer({ dest: 'uploads/' }); // Directory to store uploaded files
+
+let suggestions = [
+    { id: 1, suggestion: "Add a payment gateway.", status: "Pending" },
+    { id: 2, suggestion: "Integrate with social media.", status: "Pending" }
+];
+
+// Endpoint to get suggestions
+app.get('/suggestions', (req, res) => {
+    res.json(suggestions);
+});
+
+// Endpoint to handle file uploads
+app.post('/upload', upload.single('file'), (req, res) => {
+    const description = req.body.description;
+    const file = req.file;
+
+    if (file) {
+        // Process the uploaded file and description
+        res.json({ message: `File ${file.originalname} uploaded successfully with description: "${description}"` });
+    } else {
+        res.status(400).json({ message: "No file uploaded" });
+    }
+});
+
+// Endpoint to request a feature
+app.post('/request-feature', (req, res) => {
+    const { id } = req.body;
+    const suggestion = suggestions.find(s => s.id === id);
+    if (suggestion) {
+        res.json({ message: `Feature requested: ${suggestion.suggestion}` });
+    } else {
+        res.status(404).json({ message: "Suggestion not found" });
+    }
+});
+
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
+
+
+
+
+
