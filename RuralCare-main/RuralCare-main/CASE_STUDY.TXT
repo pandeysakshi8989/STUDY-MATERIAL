@@ -1,0 +1,41 @@
+CASE STUDY 1 
+Patient Name: Shweta Pandey
+Age: 50
+Occupation: Housewife
+Location: Satsa -Village  city -Rohtas 
+Disease : Diabetes 
+Type: Chronic
+First time disease detected: 2014
+Number of years suffering: 15 years
+Stage: Secondary
+Any Other Problems: Dental Issues,  Headache, Joints Pain, Body Pain, Easily Cold catches 
+Any previous accidents :  A cut wound on hand 
+Any Previous major surgery: Yes, Uterus surgery
+Checkups Frequency: One or twice a month
+Hospitals visited till now: IGMS Patna, Sir Sundelal Hospital BHU, Ramnagar Hospital Varanasi, Anand Mai Hospital Varanasi
+Any Special Nurse Appointed for regular care: No
+Any Dietician Appointed for regular diet care: No
+Any Special Doctor Appointed for regular checkups: No
+Any Other special facilities provided: No
+Current status: Below Normal but above Poor condition
+
+CASE STUDY 2 
+Patient Name: PhulSundari Devi
+Age: 75
+Occupation: Housewife
+Location: Parsiya - Village , City-  Rohtas 
+Disease : Diabetes 
+Type: Chronic
+First time disease detected: 2018
+Number of years suffering: 10 years
+Stage: Primary
+Any Other Problems: Dental Issues,  Headache, Joints Pain, Body Pain, Easily Cold catches 
+Any previous accidents :  No
+Any previous major surgey: No
+Checkups Frequency: Once a week
+Hospitals visited till now: IGMS Patna
+Any Special Nurse Appointed for regular care: No
+Any Dietician Appointed for regular diet care: No
+Any Special Doctor Appointed for regular checkups: No
+Any Other special facilities provided: No
+Current status: Normal But below Average

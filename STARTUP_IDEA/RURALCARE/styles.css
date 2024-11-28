@@ -1,0 +1,65 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styles */
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+/* Navigation bar styles */
+nav {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #218838;
+}
+
+/* Content area styles */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+/* Title and motto styles */
+.content h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+.content p {
+    font-size: 1.5em;
+    color: #555;
+}
